@@ -102,3 +102,8 @@ section .set div:nth-child(8){
     transform: scale(0.8) rotateY(180deg);
     filter: blur(4px);
 }
+@media (max-width: 500px) {
+   section h2{
+    font-size: 2em;
+    }
+}
